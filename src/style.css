@@ -54,6 +54,10 @@ nav {
     text-decoration: none;
 }
 
+.leftNavBtns a:hover {
+    color: var(--neutral-600)
+}
+
 
 .rightNav {
     display: flex;
@@ -68,4 +72,22 @@ nav {
 
 .hamburger-menu {
     display: none;
+}
+
+@media only screen and (max-width: 918px) {
+    .leftNavBtns {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+
+.stores {
+    display: none;
+}
+
 }
