@@ -3,14 +3,18 @@
     --primary-300: #C4B5FD;
     --primary-100: #EDE9FE;
 
-    --secondary-900: #111827;
-    --secondary-700: #374151;
-    --secondary-600: #4B5563;
-    --secondary-500: #6B7280;
-    --secondary-300: #D1D5DB;
-    --secondary-200:  #E5E7EB;
-    --secondary-100: #F3F4F6;
-    --secondary-50: #F9FAFB;
+    --secondary-600: #1DB5BE;
+    --secondary-300: #75E3EA;
+    --secondary-100: #D5FAFC;
+
+    --neutral-900: #111827;
+    --neutral-700: #374151;
+    --neutral-600: #4B5563;
+    --neutral-500: #6B7280;
+    --neutral-300: #D1D5DB;
+    --neutral-200:  #E5E7EB;
+    --neutral-100: #F3F4F6;
+    --neutral-50: #F9FAFB;
 
     --accent-05: #A0DCFF;
     --accent-07: #F9B501;
@@ -20,4 +24,48 @@
 
 * {
     font-family: 'Inter', sans-serif;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.leftNav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.leftNavBtns {
+    display: flex;
+    gap: 24px;
+}
+
+.leftNavBtns a {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: var(--neutral-900);
+    text-decoration: none;
+}
+
+
+.rightNav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.stores {
+    display: flex;
+    gap: 12px;
+}
+
+.hamburger-menu {
+    display: none;
 }
