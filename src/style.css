@@ -684,7 +684,7 @@ footer a:hover {
         }
 
         .first-page {
-            height: 120vh;
+            height: 130vh;
             
         }
     
@@ -708,6 +708,8 @@ footer a:hover {
             width: 320px;
             height: 320px;
         }
+
+       
 
         .brand-logos {
             grid-template-columns: repeat(2, 1fr);
